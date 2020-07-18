@@ -34,6 +34,11 @@ class Owner
     @cats.push(new_cat) unless @cats.include?(new_cat)
   end
 
+  def buy_dog(dog)
+    new_dog = Dog.new(dog,self)
+    @dogs.push(new_dog) unless @dogs.include?(new_dog)
+  end
+
 #class methods
 
   def self.all()
