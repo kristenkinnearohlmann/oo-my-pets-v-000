@@ -39,6 +39,9 @@ class Owner
     @dogs.push(new_dog) unless @dogs.include?(new_dog)
   end
 
+  def walk_dogs
+  end
+
 #class methods
 
   def self.all()
