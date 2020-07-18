@@ -30,7 +30,7 @@ class Owner
   end
 
   def buy_cat(cat)
-    @cats.push(cat) unless @cats.include?(cat)
+    # @cats.push(cat) unless @cats.include?(cat)
   end
 
 #class methods
