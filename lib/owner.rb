@@ -29,6 +29,9 @@ class Owner
     @dogs
   end
 
+  def buy_cat
+  end
+
 #class methods
 
   def self.all()
