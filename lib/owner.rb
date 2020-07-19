@@ -51,10 +51,12 @@ class Owner
     @dogs.each do |dog|
       dog.mood = "nervous"
       dog.owner = nil
+      @@dogs.delete(dog)
     end
     @cats.each do |cat|
       cat.mood = "nervous"
       cat.owner = nil
+      @@cats.delete(cat)
     end
   end
 
